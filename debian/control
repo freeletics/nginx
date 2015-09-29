@@ -93,13 +93,13 @@ Description: nginx web/proxy server (basic version)
  This package provides a very light version of nginx with only the
  minimal set of features and modules.
  .
- STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Empty GIF,
- FastCGI, Map, Proxy, Rewrite.
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser, Empty
+ GIF, FastCGI, Map, Proxy, Rewrite.
  .
- OPTIONAL HTTP MODULES: Auth Request, Charset, Gzip, Gzip Precompression,
- Headers, Index, Log, Real IP, SSL, Stub Status, Upstream.
+ OPTIONAL HTTP MODULES: Auth Request, Charset, Gzip,
+ Headers, Index, Log, Real IP, Stub Status, Upstream, GeoIP.
  .
- THIRD PARTY MODULES: Echo.
+ THIRD PARTY MODULES: Embedded Lua, Accept Language.
 
 Package: nginx-light-dbg
 Architecture: any
