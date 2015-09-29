@@ -1,3 +1,18 @@
+nginx (1.9.9-1~fl1) jessie-backports; urgency=medium
+
+  [ Antoine Cotten ]
+  * Customize nginx-light flavour:
+    + Add geoip module.
+    + Add nginx-lua module.
+    + Add accept_language module.
+    + Remove ssl module.
+    + Remove gzip_static module.
+    + Disable ipv6.
+  * Remove nginx-full and nginx-extras flavours.
+  * Rebuild for jessie-backports by Freeletics GmbH.
+
+ -- Antoine Cotten <antoine@freeletics.com>  Tue, 19 Jan 2016 17:17:00 +0000
+
 nginx (1.9.9-1) unstable; urgency=medium
 
   [ Michael Lustfield ]
